@@ -20,6 +20,6 @@ public class Trapeze extends Figure {
 
     @Override
     public String toString() {
-        return String.format("Фигура: %s, площадь: %f кв. ед., высота: %s ед., нижнее основание : %s ед., верхнее основание : %s ед., цвет: %s", this.getName(), this.getArea(), this.getHeight(), this.getBase1(), this.getBase2(), this.getColor());
+        return String.format("Фигура: %s, площадь: %.2f кв. ед., высота: %d ед., нижнее основание : %d ед., верхнее основание : %d ед., цвет: %s", this.getName(), this.getArea(), this.getHeight(), this.getBase1(), this.getBase2(), this.getColor());
     }
 }

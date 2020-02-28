@@ -15,6 +15,6 @@ public class Square extends Figure {
 
     @Override
     public String toString() {
-        return String.format("Фигура: %s, площадь: %f кв. ед., длина стороны: %s ед., цвет: %s", this.getName(), this.getArea(), this.getSideLength(), this.getColor());
+        return String.format("Фигура: %s, площадь: %.2f кв. ед., длина стороны: %d ед., цвет: %s", this.getName(), this.getArea(), this.getSideLength(), this.getColor());
     }
 }
